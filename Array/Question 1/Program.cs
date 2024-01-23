@@ -23,7 +23,11 @@ namespace Question_1
                         count++;
                     }
                 }
+                if (count > 1)
+                {
+
                 Console.WriteLine($"{arr[i]} is {count} times;");
+                }
             }
             Console.ReadLine();
         }
